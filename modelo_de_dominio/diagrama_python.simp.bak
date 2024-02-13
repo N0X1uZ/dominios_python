@@ -121,14 +121,14 @@
       <structural-feature type="Cliente" type-id="Class:8ab9883ec27a4f378b7c5922d7210f79" />
       <property aggregation="composite" />
     </item>
-    <item id="42b1328163264421bda5ebda4fe07d93" cid="PROP033" type="property" owner="eb9b0c8829e64885b7c07366405211e8" creator="" creation-date="02/13/2024 16:38:43" visibility="private">
-      <structural-feature type="Empleado" type-id="Class:d0519b25285c4333b9368c941df50ea1" />
+    <item id="42b1328163264421bda5ebda4fe07d93" cid="PROP033" type="property" name="factura" owner="eb9b0c8829e64885b7c07366405211e8" creator="" creation-date="02/13/2024 16:38:43" visibility="private">
+      <structural-feature multiplicity="1" type="Empleado" type-id="Class:d0519b25285c4333b9368c941df50ea1" />
     </item>
     <item id="217352f3726a4ff595836ccf063006ff" cid="PROP030" type="property" name="se registra para" owner="89cc2dabaf5845bbaa423970e40e4bea" creator="" creation-date="02/13/2024 14:18:43" visibility="private">
       <structural-feature multiplicity="1" type="Pago" type-id="Class:d46974b78fd2418fab4c42a6ab6ab1b7" />
     </item>
-    <item id="1a28114e9472489c8514556186da5eca" cid="PROP034" type="property" owner="eb9b0c8829e64885b7c07366405211e8" creator="" creation-date="02/13/2024 16:38:43" visibility="private">
-      <structural-feature type="Pago" type-id="Class:d46974b78fd2418fab4c42a6ab6ab1b7" />
+    <item id="1a28114e9472489c8514556186da5eca" cid="PROP034" type="property" name="es hecho por" owner="eb9b0c8829e64885b7c07366405211e8" creator="" creation-date="02/13/2024 16:38:43" visibility="private">
+      <structural-feature multiplicity="*" type="Pago" type-id="Class:d46974b78fd2418fab4c42a6ab6ab1b7" />
     </item>
   </items>
   <models>
@@ -145,7 +145,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="p51098b35fd164ec1bf8593578b13aad9_696360839" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-180,18" zoom="0.8">
+      <diagram type="uml-class" id="p51098b35fd164ec1bf8593578b13aad9_696360839" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-255,-30" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -322,14 +322,15 @@ permite definir el papel que juega una entidad en una relacion de asociacion </c
             <relation from="e64ac07e0c2942a8bd362e340f44588b" from-iid="e5e8dfa2b2de4121b1bd3d3f7d300f7d" to="d46974b78fd2418fab4c42a6ab6ab1b7" to-iid="6b60ed8366264b22a77f54b6c7b89c60" to-field="a16bc73ae5f3944f4817116e8355040da508" />
           </item>
           <item id="d0519b25285c4333b9368c941df50ea1" iid="1bf108e5d92346a6a28e5e16e6278d8c" show-fields="true" creation-date="02/13/2024 16:37:53" order-index="9" type="entity">
-            <layout ax="594" ay="502" awidth="140" aheight="160" x="594" y="502" width="140" height="160" />
+            <layout ax="650" ay="502" awidth="140" aheight="160" x="650" y="502" width="140" height="160" />
             <classifier />
             <class />
           </item>
           <item id="eb9b0c8829e64885b7c07366405211e8" iid="4e17cb1c7e204128ad24e4c90bbed9c1" creation-date="02/13/2024 16:38:43" order-index="10" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="666" y1="502" x2="509" y2="325" start-border-pos="0.12857142857142856" end-border-pos="0.625" start-local-pos="72" end-local-pos="70" name-position="0,20">
+            <layout start-role-position="99.24914,22.941372" end-role-position="31.297264,58.90094" start-multiplicity-position="103.932106,-24.361414" end-multiplicity-position="28.929226,-46.078316" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="722" y1="502" x2="509" y2="325" start-border-pos="0.12857142857142856" end-border-pos="0.625" start-local-pos="72" end-local-pos="70" name-position="-51,0">
               <points>
-                <point x="666" y="502" />
+                <point x="722" y="502" />
+                <point x="506" y="496" />
                 <point x="509" y="325" />
               </points>
             </layout>
